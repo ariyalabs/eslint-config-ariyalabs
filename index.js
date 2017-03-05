@@ -30,7 +30,7 @@ module.exports = {
         // Possible Errors
         // http://eslint.org/docs/rules/#possible-errors
         // ---------------------------------------------
-        'no-cond-assign': 0, // eslint:recommended
+        // 'no-cond-assign': 2, // eslint:recommended
         // 'no-console': 2, // eslint:recommended
         // 'no-constant-condition': 2, // eslint:recommended
         // 'no-control-regex': 2, // eslint:recommended
@@ -47,18 +47,18 @@ module.exports = {
         // 'no-func-assign': 2, // eslint:recommended
         // 'no-inner-declarations': 2, // eslint:recommended
         // 'no-invalid-regexp': 2, // eslint:recommended
-        'no-irregular-whitespace': 2, // eslint:recommended
+        // 'no-irregular-whitespace': 2, // eslint:recommended
         // 'no-obj-calls': 2, // eslint:recommended
         // 'no-prototype-builtins': 0,
         // 'no-regex-spaces': 2, // eslint:recommended
         // 'no-sparse-arrays': 2, // eslint:recommended
         // 'no-template-curly-in-string': 0,
-        'no-unexpected-multiline': 2, // eslint:recommended
+        // 'no-unexpected-multiline': 2, // eslint:recommended
         // 'no-unreachable': 2, // eslint:recommended
         // 'no-unsafe-finally': 2, // eslint:recommended
         // 'no-unsafe-negation': 0,
         // 'use-isnan': 2 // eslint:recommended
-        'valid-jsdoc': [2, {
+        'valid-jsdoc': [1, {
             requireParamDescription: false,
             requireReturnDescription: false,
             requireReturn: false,
@@ -156,7 +156,7 @@ module.exports = {
         // 'no-undef-init': 0,
         // 'no-undef': 2, // eslint:recommended
         // 'no-undefined': 0,
-        'no-unused-vars': [2, {args: 'none'}], // eslint:recommended
+        'no-unused-vars': [2, {'vars': 'local', args: 'none'}],
         // 'no-use-before-define': 0,
 
         // Node.js and CommonJS
@@ -179,8 +179,8 @@ module.exports = {
         // ----------------------------------------------
         'array-bracket-spacing': [2, 'never'],
         // 'block-spacing': 0,
-        'brace-style': 2,
-        'camelcase': [2, {properties: 'never'}],
+        'brace-style': 2, '1tbs',
+        'camelcase': [2, {properties: 'always'}],
         'comma-dangle': [2, 'always-multiline'],
         'comma-spacing': 2,
         'comma-style': 2,
@@ -198,7 +198,7 @@ module.exports = {
         // AriyaLabs's 4-space indent for line continuations.
         // 'jsx-quotes': 0,
         'key-spacing': 2,
-        'keyword-spacing': 0,
+        'keyword-spacing': 2,
         // 'line-comment-position': 0,
         'linebreak-style': 2,
         // 'lines-around-comment': 0,
@@ -246,14 +246,14 @@ module.exports = {
         // 'object-property-newline': 0,
         // 'one-var-declaration-per-line': 0,
         'one-var': [2, {
-            var: 'never',
-            let: 'never',
-            const: 'never',
+            var: 'always',
+            let: 'always',
+            const: 'always',
         }],
         // 'operator-assignment': 0,
         // 'operator-linebreak': 0,
         'padded-blocks': [2, 'never'],
-        'quote-props': [2, 'consistent'],
+        'quote-props': [2, 'always'],
         'quotes': [2, 'single', {allowTemplateLiterals: true}],
         'require-jsdoc': [2, {
             require: {
@@ -267,7 +267,11 @@ module.exports = {
         // 'sort-keys': 0,
         // 'sort-vars': 0,
         'space-before-blocks': 2,
-        'space-before-function-paren': [2, 'never'],
+        'space-before-function-paren': [2, {
+            'anonymous': 'always',
+            'named': 'never',
+            'asyncArrow': 'never'
+        }],
         // 'space-in-parens': 0,
         // 'space-infix-ops': 0,
         // 'space-unary-ops': 0,
@@ -281,16 +285,16 @@ module.exports = {
         // 'arrow-body-style': 0,
         'arrow-parens': [2, 'always'],
         // 'arrow-spacing': 0,
-        'constructor-super': 2, // eslint:recommended
+        // 'constructor-super': 2, // eslint:recommended
         'generator-star-spacing': [2, 'after'],
         // 'no-class-assign': 0,
         // 'no-confusing-arrow': 0,
         // 'no-const-assign': 0, // eslint:recommended
         // 'no-dupe-class-members': 0, // eslint:recommended
         // 'no-duplicate-imports': 0,
-        'no-new-symbol': 2, // eslint:recommended
+        'no-new-symbol': 2,
         // 'no-restricted-imports': 0,
-        'no-this-before-super': 2,  // eslint:recommended
+        // 'no-this-before-super': 2,  // eslint:recommended
         // 'no-useless-computed-key': 0,
         // 'no-useless-constructor': 0,
         // 'no-useless-rename': 0,
