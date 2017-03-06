@@ -200,7 +200,7 @@ module.exports = {
         'key-spacing': 2,
         'keyword-spacing': 2,
         // 'line-comment-position': 0,
-        'linebreak-style': 2,
+        'linebreak-style': 0,
         // 'lines-around-comment': 0,
         // 'lines-around-directive': 0,
         // 'max-depth': 0,
@@ -253,7 +253,7 @@ module.exports = {
         // 'operator-assignment': 0,
         // 'operator-linebreak': 0,
         'padded-blocks': [2, 'never'],
-        'quote-props': [2, 'always'],
+        'quote-props': [2, 'as-needed'],
         'quotes': [2, 'single', {allowTemplateLiterals: true}],
         'require-jsdoc': [2, {
             require: {
@@ -314,4 +314,8 @@ module.exports = {
         // 'template-curly-spacing': 0,
         'yield-star-spacing': [2, 'after'],
     },
+  'globals': {
+    'module': true,
+    'require': true,
+  }
 };
