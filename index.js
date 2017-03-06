@@ -17,7 +17,7 @@
 'use strict';
 
 module.exports = {
-    rules: {
+    'rules': {
         // The rules below are listed in the order they appear on the eslint
         // rules page. All rules are listed to make it easier to keep in sync
         // as new ESLint rules are added.
@@ -314,7 +314,7 @@ module.exports = {
         // 'template-curly-spacing': 0,
         'yield-star-spacing': [2, 'after'],
     },
-  globals: {
+  'globals': {
     'module': true,
     'require': true,
   }
