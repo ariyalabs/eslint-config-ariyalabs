@@ -253,7 +253,7 @@ module.exports = {
         // 'operator-assignment': 0,
         // 'operator-linebreak': 0,
         'padded-blocks': [2, 'never'],
-        'quote-props': [2, 'as-needed'],
+        'quote-props': [2, 'consistent'],
         'quotes': [2, 'single', {allowTemplateLiterals: true}],
         'require-jsdoc': [1, {
             require: {
