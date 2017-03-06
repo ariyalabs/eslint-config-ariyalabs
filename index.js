@@ -314,7 +314,7 @@ module.exports = {
         // 'template-curly-spacing': 0,
         'yield-star-spacing': [2, 'after'],
     },
-  'globals': {
+  globals: {
     'module': true,
     'require': true,
   }
