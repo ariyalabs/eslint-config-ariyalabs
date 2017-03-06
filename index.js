@@ -181,7 +181,7 @@ module.exports = {
         // 'block-spacing': 0,
         'brace-style': [2, '1tbs'],
         'camelcase': [2, {properties: 'always'}],
-        'comma-dangle': [2, 'always-multiline'],
+        'comma-dangle': [2, 'only-multiline'],
         'comma-spacing': 2,
         'comma-style': 2,
         'computed-property-spacing': 2,
@@ -205,7 +205,7 @@ module.exports = {
         // 'lines-around-directive': 0,
         // 'max-depth': 0,
         'max-len': [2, {
-            code: 80,
+            code: 100,
             tabWidth: 2,
             ignoreUrls: true,
             ignorePattern: '',
@@ -255,7 +255,7 @@ module.exports = {
         'padded-blocks': [2, 'never'],
         'quote-props': [2, 'as-needed'],
         'quotes': [2, 'single', {allowTemplateLiterals: true}],
-        'require-jsdoc': [2, {
+        'require-jsdoc': [1, {
             require: {
                 FunctionDeclaration: true,
                 MethodDefinition: true,
