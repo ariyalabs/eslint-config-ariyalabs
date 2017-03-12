@@ -43,4 +43,4 @@ To see how the `ariyalabs` config compares with `eslint:recommended`, refer to t
 
 ## License
 
-Apache-2 © AriyaLabs
+Licensed under the [MIT License](LICENSE).
