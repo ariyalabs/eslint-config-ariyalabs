@@ -44,3 +44,5 @@ To see how the `ariyalabs` config compares with `eslint:recommended`, refer to t
 ## License
 
 Licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2017 AriyaLabs, LLC.
