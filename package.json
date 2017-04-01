@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-ariyalabs",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "ESLint shareable config for the AriyaLabs",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "ariyalabs/eslint-config-ariyalabs",
   "author": "AriyaLabs",
   "engines": {
