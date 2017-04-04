@@ -254,7 +254,7 @@ module.exports = {
       2, {
         var: 'always',
         let: 'always',
-        const: 'always',
+        const: 'never',
       }
     ],
     // 'operator-assignment': 0,
