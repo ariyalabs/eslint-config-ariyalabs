@@ -121,7 +121,7 @@ module.exports = {
     // 'no-new': 0,
     // 'no-octal-escape': 0,
     // 'no-octal': 2,
-    // 'no-param-reassign': 0,
+    'no-param-reassign': 2,
     // 'no-proto': 0,
     // 'no-redeclare': 2,
     // 'no-return-assign': 0,
