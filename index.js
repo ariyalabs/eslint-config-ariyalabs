@@ -303,7 +303,7 @@ module.exports = {
     // http://eslint.org/docs/rules/#ecmascript-6
     // ------------------------------------------
     // 'arrow-body-style': 0,
-    'arrow-parens': [2, 'always'],
+    'arrow-parens': [0, 'always'],
     // 'arrow-spacing': 0,
     // 'constructor-super': 2,
     'generator-star-spacing': [2, 'after'],
