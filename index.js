@@ -349,7 +349,6 @@ module.exports = {
     'mocha': true,
     'node': true,
   },
-  'extends': ['eslint:recommended'],
   'globals': {},
   'parser': 'babel-eslint',
 };
