@@ -167,7 +167,7 @@ module.exports = {
         'vars': 'local',
         'args': 'none',
         'varsIgnorePattern': 'execute',
-      }
+      },
     ],
     // 'no-use-before-define': 0,
 
@@ -191,8 +191,8 @@ module.exports = {
     // ----------------------------------------------
     'array-bracket-spacing': [2, 'never'],
     // 'block-spacing': 0,
-    'brace-style': [2, '1tbs'],
-    'camelcase': [2, {properties: 'always'}],
+    'brace-style': 0,
+    'camelcase': [2, { properties: 'always' }],
     'comma-dangle': [2, 'only-multiline'],
     'comma-spacing': 2,
     'comma-style': 2,
@@ -206,7 +206,7 @@ module.exports = {
     // 'id-blacklist': 0,
     // 'id-length': 0,
     // 'id-match': 0,
-    // 'indent': 0,
+    'indent': [2, 2],
     // 'jsx-quotes': 0,
     'key-spacing': 2,
     'keyword-spacing': 2,
@@ -227,7 +227,7 @@ module.exports = {
         'newIsCap': true,
         'capIsNew': false,
         'properties': true,
-      }
+      },
     ],
     // 'new-parens': 0,
     // 'newline-after-var': 0,
@@ -240,7 +240,7 @@ module.exports = {
     // 'no-lonely-if': 0,
     // 'no-mixed-operators': 0,
     'no-mixed-spaces-and-tabs': 2,
-    'no-multiple-empty-lines': [2, {max: 2}],
+    'no-multiple-empty-lines': [2, { max: 2 }],
     // 'no-negated-condition': 0,
     // 'no-nested-ternary': 0,
     'no-new-object': 2,
@@ -261,7 +261,7 @@ module.exports = {
         var: 'always',
         let: 'always',
         const: 'never',
-      }
+      },
     ],
     // 'operator-assignment': 0,
     // 'operator-linebreak': 0,
@@ -269,7 +269,7 @@ module.exports = {
     'quote-props': [2, 'consistent'],
     'quotes': [
       2,
-      'single', {allowTemplateLiterals: true}
+      'single', { allowTemplateLiterals: true },
     ],
     // 'require-jsdoc': [
     //   1, {
@@ -290,7 +290,7 @@ module.exports = {
         'anonymous': 'always',
         'named': 'never',
         'asyncArrow': 'never',
-      }
+      },
     ],
     // 'space-in-parens': 0,
     // 'space-infix-ops': 0,
@@ -334,13 +334,22 @@ module.exports = {
     // 'template-curly-spacing': 0,
     'yield-star-spacing': [2, 'after'],
   },
+  'plugins': {
+    'eslint-plugin-react',
+    'eslint-plugin-mocha',
+  },
+  'ecmaFeatures': {
+    'jsx': true,
+  },
   'env': {
     'browser': true,
     'commonjs': true,
     'es6': true,
     'jquery': true,
+    'mocha': true,
     'node': true,
   },
+  'extends': ['eslint:recommended'],
   'globals': {},
   'parser': 'babel-eslint',
 };
