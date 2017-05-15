@@ -34,7 +34,5 @@
   ],
   "peerDependencies": {
     "eslint": ">=3.8.1",
-    "eslint-plugin-mocha": "^4.9.0",
-    "eslint-plugin-react": "^7.0.1"
   }
 }
