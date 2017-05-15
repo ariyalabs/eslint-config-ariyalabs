@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ariyalabs",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "ESLint shareable config for the AriyaLabs",
   "license": "MIT",
   "repository": "ariyalabs/eslint-config-ariyalabs",
