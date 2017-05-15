@@ -334,10 +334,10 @@ module.exports = {
     // 'template-curly-spacing': 0,
     'yield-star-spacing': [2, 'after'],
   },
-  'plugins': {
+  'plugins': [
     'eslint-plugin-react',
     'eslint-plugin-mocha',
-  },
+  ],
   'ecmaFeatures': {
     'jsx': true,
   },
