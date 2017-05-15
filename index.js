@@ -209,7 +209,7 @@ module.exports = {
     'indent': [
       2,
       2,
-      { "SwitchCase": 2 }
+      { "SwitchCase": 1 }
     ],
     // 'jsx-quotes': 0,
     'key-spacing': 2,
