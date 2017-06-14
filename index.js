@@ -260,12 +260,7 @@ module.exports = {
     'object-curly-spacing': 0,
     // 'object-property-newline': 0,
     'one-var-declaration-per-line': [2, 'always'],
-    'one-var': [
-      0, {
-        var: 'always',
-        let: 'always',
-        const: 'never',
-      },
+    'one-var': "off",
     ],
     // 'operator-assignment': 0,
     // 'operator-linebreak': 0,
