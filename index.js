@@ -336,8 +336,10 @@ module.exports = {
     'eslint-plugin-react',
     'eslint-plugin-mocha',
   ],
-  'ecmaFeatures': {
-    'jsx': true,
+  'parserOptions: {
+    'ecmaFeatures': {
+      'jsx': true,
+    },
   },
   'env': {
     'browser': true,
