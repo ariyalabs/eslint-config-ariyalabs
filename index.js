@@ -293,7 +293,7 @@ module.exports = {
       2, {
         'anonymous': 'always',
         'named': 'never',
-        'asyncArrow': 'never',
+        'asyncArrow': 'always',
       },
     ],
     // 'space-in-parens': 0,
